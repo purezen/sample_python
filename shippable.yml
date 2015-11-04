@@ -6,7 +6,8 @@ python:
 
 matrix:
   include:
-    - env: DOCKER_COMPOSE_VERSION=1.5.0rc3
+  - rvm: 2.0.0
+     env: DOCKER_COMPOSE_VERSION=1.5.0rc3
 
 # Make folders for the reports
 before_script:
